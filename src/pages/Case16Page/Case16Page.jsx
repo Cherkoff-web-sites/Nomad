@@ -4,17 +4,16 @@ import InfoSection from '../../components/InfoSection/InfoSection';
 import image1 from './assets/image_1.png';
 import image2 from './assets/image_2.png';
 import image3 from './assets/image_3.png';
-import image4 from './assets/image_4.png';
-import image5 from './assets/image_5.png';
-import image6 from './assets/image_6.png';
 import image7 from './assets/image_7.png';
-import image9 from './assets/image_9.png';
 import image11 from './assets/image_11.png';
-import image12 from './assets/image_12.png';
 import image14 from './assets/image_14.png';
 import image15 from './assets/image_15.png';
 import image16 from './assets/image_16.png';
-import image17 from './assets/image_17.png';
+import video1 from './assets/video_1.mp4';
+import video2 from './assets/video_2.mp4';
+import video3 from './assets/video_3.mp4';
+import video4 from './assets/video_4.mp4';
+import video5 from './assets/video_5.mp4';
 import Col2Photo from '../../components/Col2Photo/Col2Photo';
 import Footer from '../../components/Footer/Footer';
 import NextPrevCase from '../../components/NextPrevCase/NextPrevCase';
@@ -55,10 +54,10 @@ const Case16Page = () => {
       </div>
 
       {/* Section 5 */}
-      <img src={image6} alt="photo6" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <video src={video1} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
 
       {/* Section 6 */}
-      <Col2Photo image1={image4} image2={image5} />
+      <video src={video2} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
 
       {/* Section 7 - Палитра цветов */}
       <div className="mt-5 md:mt-[50px]">
@@ -78,13 +77,13 @@ const Case16Page = () => {
       </div>
 
       {/* Section 9 */}
-      <img src={image9} alt="photo9image9" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <video src={video3} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
 
       {/* Section 10 */}
       <img src={image14} alt="photo14" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
 
       {/* Section 11 */}
-      <img src={image12} alt="photo12" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <video src={video4} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
 
       <div className="mt-5 md:mt-[50px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
@@ -102,7 +101,7 @@ const Case16Page = () => {
       </div>
 
       {/* Section 13 */}
-      <img src={image17} alt="photo17" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <video src={video5} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
 
       {/* Section 14 */}
       <NextPrevCase dataPrev={casesData[3]} dataNext={casesData[4]} link={"/case9"}/>
