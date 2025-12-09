@@ -9,12 +9,19 @@ import image5 from './assets/image_5.png';
 import image6 from './assets/image_6.png';
 import image7 from './assets/image_7.png';
 import image8 from './assets/image_8.png';
-import image9 from './assets/image_9.png';
-import image10 from './assets/image_10.png';
-import image11 from './assets/image_11.png';
-import image12 from './assets/image_12.png';
 import video1 from './assets/video_1.mp4';
+import video2 from './assets/video_2.mp4';
+import video3 from './assets/video_3.mp4';
+import video4 from './assets/video_4.mp4';
+import video5 from './assets/video_5.mp4';
+import video6 from './assets/video_6.mp4';
+import video7 from './assets/video_7.mp4';
+import video8 from './assets/video_8.mp4';
+import video9 from './assets/video_9.mp4';
+import video10 from './assets/video_10.mp4';
+import video11 from './assets/video_11.mp4';
 import Col2Photo from '../../components/Col2Photo/Col2Photo';
+import VideoParallel from '../../components/VideoParallel/VideoParallel';
 import Footer from '../../components/Footer/Footer';
 import NextPrevCase from '../../components/NextPrevCase/NextPrevCase';
 import { casesData } from '../utils/const';
@@ -37,6 +44,18 @@ const Case22Page = () => {
       {
         title: '337к',
         desc: 'уникальных просмотров',
+      },
+      {
+        title: '641к',
+        desc: 'Общих просмотров',
+      },
+      {
+        title: '5млн',
+        desc: 'общий pr охват',
+      },
+      {
+        title: '1,5млн',
+        desc: 'Просмотров в telegram',
       }
     ],
     titleAlign: 'items-center', // Выравнивание заголовка
@@ -67,7 +86,8 @@ const Case22Page = () => {
         </p>
       </div>
 
-      <img src={image4} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
+      <video src={video2} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+
 
       <div className="mt-5 md:mt-[50px]">
         <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
@@ -75,7 +95,7 @@ const Case22Page = () => {
         </p>
       </div>
 
-      <img src={image5} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
+      <img src={image4} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
 
       <div className="mt-5 md:mt-[50px]">
         <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
@@ -83,19 +103,30 @@ const Case22Page = () => {
         </p>
       </div>
 
-      <Col2Photo image1={image6} image2={image7} />
+      <Col2Photo image1={image5} image2={image6} />
 
-      <img src={image8} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
+      <video src={video3} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
 
-      <Col2Photo image1={image9} image2={image10} />
+      <VideoParallel video1={video4} video2={video5} />
 
       <div className="mt-5 md:mt-[50px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
-          Концепция опиралась на стиль «олдскульного цирка»: театрально, харизматично, с лёгким гротеском. Площадкой стал театральный зал, где бильярдный стол был главным героем спектакля.
+          Мы превратили бильярд в полноценное шоу с высоким удержанием. Игра на контрастах, ставка на уникальную визуальную эстетику, необычные правила сделали контент увлекательным и заметным в Twitch.
         </p>
       </div>
 
-      <Col2Photo image1={image11} image2={image12} />
+      <Col2Photo image1={image7} image2={image8} />
+
+      <video src={video6} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+
+      <video src={video7} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+
+      <VideoParallel video1={video8} video2={video9} />
+
+      <video src={video10} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+
+      <video src={video11} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+
 
       {/* Section 14 */}
       <NextPrevCase dataPrev={casesData[3]} dataNext={casesData[4]} link={"/case9"}/>
