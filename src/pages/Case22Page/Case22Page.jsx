@@ -9,34 +9,34 @@ import image5 from './assets/image_5.png';
 import image6 from './assets/image_6.png';
 import image7 from './assets/image_7.png';
 import image8 from './assets/image_8.png';
+import image9 from './assets/image_9.png';
+import image10 from './assets/image_10.png';
+import image11 from './assets/image_11.png';
+import image12 from './assets/image_12.png';
 import video1 from './assets/video_1.mp4';
-import video2 from './assets/video_2.mp4';
-import video3 from './assets/video_3.mp4';
-import video4 from './assets/video_4.mp4';
-import video5 from './assets/video_5.mp4';
 import Col2Photo from '../../components/Col2Photo/Col2Photo';
 import Footer from '../../components/Footer/Footer';
 import NextPrevCase from '../../components/NextPrevCase/NextPrevCase';
 import { casesData } from '../utils/const';
-const Case17Page = () => {
+const Case22Page = () => {
   const caseData = {
-    projectTitle: 'Фирменный стиль',
-    clientTitle: '«Тим Фест»',
-    cards: ['брендинг', 'партнерство', 'стратегия', 'позиционирование', '3d'],
+    projectTitle: 'Медиа бильярд',
+    clientTitle: 'BetBoom',
+    cards: ['events', 'Digital'],
     description:
-      'Команда «ТИМ Фест» обратилась к нам с амбициозной задачей — создать с нуля формат и визуальную систему для нового фестиваля о спорте, здоровье и инновациях.',
+      'Перед нами стояла задача создать уникальное шоу на базе бильярда, опираясь на рост популярности игры как модного лайфстайл-развлечения. Формат должен был быть интересен аудитории Twitch и оживить классические, часто скучные трансляции.',
     result: [
       {
-        title: '2млн',
-        desc: 'охват без продвижения',
+        title: '8ч',
+        desc: 'Длительность',
       },
       {
-        title: '5000',
-        desc: 'посетителей',
+        title: '13 700',
+        desc: 'аудитория онлайн',
       },
       {
-        title: '100',
-        desc: 'патнеров за 1 год',
+        title: '337к',
+        desc: 'уникальных просмотров',
       }
     ],
     titleAlign: 'items-center', // Выравнивание заголовка
@@ -49,62 +49,53 @@ const Case17Page = () => {
       <InfoSection caseData={caseData} />
 
       {/* Section 2 */}
-      <img src={image1} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
-
-      {/* Section 3 */}
-      <div className="mt-5 md:mt-[50px]">
-        {/* <Type3 type1Data={type1Data} /> */}
-      </div>
-
-      {/* Section 5 */}
-      <video src={video1} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
-
-      {/* Section 6 */}
-      <video src={video2} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
-
-      {/* Section 7 - Палитра цветов */}
-      <div className="mt-5 md:mt-[50px]">
-        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
-          Фирменная палитра это продолжение диалога между лесной эстетикой и гастрономической темой. Каждый оттенок выбран осознанно и имеет свою историю. Палитра сочетает насыщенность леса и тёплые бистро-акценты. Тёмные оттенки делают светлые ещё уютнее. Нет кислотных цветов — только «съедобные» тона.
-        </p>
-        <img src={image4} alt="Палитра цветов" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
-      </div>
-
-      {/* Section 8 */}
-      <img src={image5} alt="photo11" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <video src={video1} autoPlay loop muted playsInline preload="metadata" className="mt-5 md:mt-[50px] w-full h-auto"></video>
 
       <div className="mt-5 md:mt-[50px]">
         <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
-          Визуальный язык бренда построен на технике ручной печати — каждый элемент будто оттиснут на бумаге вручную, сохраняя живую фактуру и органичную несовершенность линий. Такой подход создаёт ощущение подлинности и связи с природными ритмами, отражая философию заведения.
+          Мы отошли от привычного образа спорт-бара и стандартной Twitch-трансляции. Создали целый сценарий и сняли шоу как фильм — с декорациями, светом, костюмами и продуманным сетапом.
         </p>
       </div>
 
-      {/* Section 9 */}
-      <video src={video3} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <Col2Photo image1={image1} image2={image2} />
 
-      {/* Section 10 */}
-      <img src={image6} alt="photo14" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
-
-      {/* Section 11 */}
-      <video src={video4} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <img src={image3} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
 
       <div className="mt-5 md:mt-[50px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
-          Форма сотрудников становится продолжением всей визуальной концепции фирменного стиля, вмещая в себе харизматичные вординги и ключевые визуальные приемы бренда.
+          Концепция опиралась на стиль «олдскульного цирка»: театрально, харизматично, с лёгким гротеском. Площадкой стал театральный зал, где бильярдный стол был главным героем спектакля.
         </p>
       </div>
 
-      {/* Section 12 */}
-      <Col2Photo image1={image7} image2={image8} />
+      <img src={image4} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
+
+      <div className="mt-5 md:mt-[50px]">
+        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+          Для трансляции привлекли дружественных стримеров, трансляция велась на Twitch-е Саши Парадеевича. Фокус был не на мастерстве игры, а на развлекательном контенте в кадре.
+        </p>
+      </div>
+
+      <img src={image5} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
+
+      <div className="mt-5 md:mt-[50px]">
+        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+          Понимая, что классический бильярд может показаться скучным, мы придумали собственные правила и задания. Они делали розыгрыши непредсказуемыми, добавляли юмор и ставили участников в интересные, иногда забавные ситуации.
+        </p>
+      </div>
+
+      <Col2Photo image1={image6} image2={image7} />
+
+      <img src={image8} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
+
+      <Col2Photo image1={image9} image2={image10} />
 
       <div className="mt-5 md:mt-[50px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
-          Финальным этапом стало создание визуального руководства, в котором все элементы стиля были систематизированы и объединены в единую структуру. Мы задали логику и правила их использования, чтобы обеспечить целостность и последовательность визуальной коммуникации бренда.
+          Концепция опиралась на стиль «олдскульного цирка»: театрально, харизматично, с лёгким гротеском. Площадкой стал театральный зал, где бильярдный стол был главным героем спектакля.
         </p>
       </div>
 
-      {/* Section 13 */}
-      <video src={video5} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <Col2Photo image1={image11} image2={image12} />
 
       {/* Section 14 */}
       <NextPrevCase dataPrev={casesData[3]} dataNext={casesData[4]} link={"/case9"}/>
@@ -114,6 +105,4 @@ const Case17Page = () => {
   );
 };
 
-export default Case17Page;
-
-
+export default Case22Page;

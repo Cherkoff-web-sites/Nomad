@@ -24,7 +24,6 @@ import Case19Page from '../pages/Case19Page/Case19Page';
 import Case20Page from '../pages/Case20Page/Case20Page';
 import Case21Page from '../pages/Case21Page/Case21Page';
 import Case22Page from '../pages/Case22Page/Case22Page';
-import Case23Page from '../pages/Case23Page/Case23Page';
 import PrivayPolicyPage from '../pages/PrivayPolicyPage/PrivayPolicyPage';
 import PersonalDataPage from '../pages/PersonalDataPage/PersonalDataPage';
 import ScrollToTop from '../ScrollToTop';
@@ -57,7 +56,6 @@ const AppRoutes = () => {
           <Route path="/case20" element={<Case20Page />} />
           <Route path="/case21" element={<Case21Page />} />
           <Route path="/case22" element={<Case22Page />} />
-          <Route path="/case23" element={<Case23Page />} />
           <Route path="/privacypolicy" element={<PrivayPolicyPage />} />
           <Route path="/personaldata" element={<PersonalDataPage />} />
         </Routes>
