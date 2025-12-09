@@ -9,37 +9,50 @@ import image5 from './assets/image_5.png';
 import image6 from './assets/image_6.png';
 import image7 from './assets/image_7.png';
 import image8 from './assets/image_8.png';
-import video1 from './assets/video_1.mp4';
-import video2 from './assets/video_2.mp4';
-import video3 from './assets/video_3.mp4';
-import video4 from './assets/video_4.mp4';
-import video5 from './assets/video_5.mp4';
+import image9 from './assets/image_9.png';
+import image10 from './assets/image_10.png';
+import image11 from './assets/image_11.png';
+import image12 from './assets/image_12.png';
+import image13 from './assets/image_13.png';
+import image14 from './assets/image_14.png';
+import image15 from './assets/image_15.png';
+import image16 from './assets/image_16.png';
+import image17 from './assets/image_17.png';
+import image18 from './assets/image_18.png';
+import image19 from './assets/image_19.png';
+import image20 from './assets/image_20.png';
+import image21 from './assets/image_21.png';
+import image22 from './assets/image_22.png';
+import image23 from './assets/image_23.png';
+import image24 from './assets/image_24.png';
+import image25 from './assets/image_25.png';
+import image26 from './assets/image_26.png';
+import image27 from './assets/image_27.png';
+import image28 from './assets/image_28.png';
+import image29 from './assets/image_29.png';
+import image30 from './assets/image_30.png';
 import Col2Photo from '../../components/Col2Photo/Col2Photo';
+import Type3 from '../../components/Type3/Type3';
 import Footer from '../../components/Footer/Footer';
 import NextPrevCase from '../../components/NextPrevCase/NextPrevCase';
 import { casesData } from '../utils/const';
-const Case17Page = () => {
+const Case21Page = () => {
   const caseData = {
-    projectTitle: 'Фирменный стиль',
-    clientTitle: '«Тим Фест»',
-    cards: ['брендинг', 'партнерство', 'стратегия', 'позиционирование', '3d'],
+    projectTitle: 'Разработка мерча',
+    clientTitle: 'Lunda Padel',
+    cards: ['Мерч'],
     description:
-      'Команда «ТИМ Фест» обратилась к нам с амбициозной задачей — создать с нуля формат и визуальную систему для нового фестиваля о спорте, здоровье и инновациях.',
-    result: [
-      {
-        title: '2млн',
-        desc: 'охват без продвижения',
-      },
-      {
-        title: '5000',
-        desc: 'посетителей',
-      },
-      {
-        title: '100',
-        desc: 'патнеров за 1 год',
-      }
-    ],
+      'Задача: Создать линейку мерча, разделенную на две стратегические категории: функциональную униформу для персонала и коммерческую коллекцию для продажи клиентам. Одежда должна была стать частью формирующейся культуры падела, отражая современный и узнаваемый стиль бренда.',
     titleAlign: 'items-center', // Выравнивание заголовка
+  };
+  const type1Data = {
+    title1:
+      'Концепция: «Padel starts here»\n\nПадел — это зарождающееся комьюнити и стиль жизни, а не просто спорт. Мы сознательно отошли от классических теннисных кодов и эстетики «тихой роскоши», чтобы создать свежий, актуальный язык.',
+    title2:
+      'Наша цель — разработать мерч, в котором «свои» узнают общие ценности, а новички захотят стать частью мира Lunda Padel.',
+    image1: image3,
+    image2: image4,
+    widthTitle2: 'w-[70%] md:w-[50%]',
   };
   return (
     <main className="container mx-auto">
@@ -49,62 +62,81 @@ const Case17Page = () => {
       <InfoSection caseData={caseData} />
 
       {/* Section 2 */}
-      <img src={image1} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
+      <Col2Photo image1={image1} image2={image2} widthImage1="w-[42%]" widthImage2="w-[56%]"/>
 
-      {/* Section 3 */}
       <div className="mt-5 md:mt-[50px]">
-        {/* <Type3 type1Data={type1Data} /> */}
+        <Type3 type1Data={type1Data} />
       </div>
 
-      {/* Section 5 */}
-      <video src={video1} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <Col2Photo image1={image5} image2={image6} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
-      {/* Section 6 */}
-      <video src={video2} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <img src={image7} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
 
-      {/* Section 7 - Палитра цветов */}
+      <Col2Photo image1={image8} image2={image9} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
+
+      <Col2Photo image1={image10} image2={image11} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
+
       <div className="mt-5 md:mt-[50px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
-          Фирменная палитра это продолжение диалога между лесной эстетикой и гастрономической темой. Каждый оттенок выбран осознанно и имеет свою историю. Палитра сочетает насыщенность леса и тёплые бистро-акценты. Тёмные оттенки делают светлые ещё уютнее. Нет кислотных цветов — только «съедобные» тона.
+          Решение: База, которую хочется носить
         </p>
-        <img src={image4} alt="Палитра цветов" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+          Мы создали коллекцию, основанную на принципах актуального гардероба:
+        </p>
+        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+          <br />
+          — Функциональность: Удобные модели для everyday wear и занятий спортом.
+          <br />
+          — Современный крой: Свободные лекала, соответствующие последним трендам.
+          <br />
+          — Узнаваемый дизайн: Минималистичные принты и цепляющий копирайт, отражающий дух комьюнити.
+          <br />
+          — Яркие акценты: Детали, подчеркивающие динамику и энергию бренда.
+        </p>
       </div>
 
-      {/* Section 8 */}
-      <img src={image5} alt="photo11" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <Col2Photo image1={image12} image2={image13} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
+
+      <Col2Photo image1={image14} image2={image15} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
+
+      <Col2Photo image1={image16} image2={image17} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
+
+      <Col2Photo image1={image18} image2={image19} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
       <div className="mt-5 md:mt-[50px]">
         <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
-          Визуальный язык бренда построен на технике ручной печати — каждый элемент будто оттиснут на бумаге вручную, сохраняя живую фактуру и органичную несовершенность линий. Такой подход создаёт ощущение подлинности и связи с природными ритмами, отражая философию заведения.
+          Мы взяли на себя все этапы — от творческой идеи до готового продукта:
+
+        </p>
+        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+          <br />
+          1. Разработка дизайна: Полное проектирование внешнего вида всех изделий.
+          <br />
+          2. Конструирование: Разработка лекал для обеспечения идеальной посадки.
+          <br />
+          3. Контроль качества: Тщательный отбор тканей и полной брендированной фурнитуры (молнии, пуговицы, бирки).
+          <br />
+          4. Производство и пошив: Полное курирование работы фабрики и контроль каждого этапа пошива.
         </p>
       </div>
 
-      {/* Section 9 */}
-      <video src={video3} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <Col2Photo image1={image20} image2={image21} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
-      {/* Section 10 */}
-      <img src={image6} alt="photo14" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <Col2Photo image1={image22} image2={image23} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
-      {/* Section 11 */}
-      <video src={video4} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <Col2Photo image1={image24} image2={image25} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
       <div className="mt-5 md:mt-[50px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
-          Форма сотрудников становится продолжением всей визуальной концепции фирменного стиля, вмещая в себе харизматичные вординги и ключевые визуальные приемы бренда.
+          Мы запустили две целевые линейки мерча, которые укрепляют корпоративный дух среди сотрудников и формируют лояльное комьюнити среди клиентов. Коллекция «Padel starts here» стала не просто одеждой, а символом принадлежности к новому поколению спортивных визионеров.
         </p>
       </div>
 
-      {/* Section 12 */}
-      <Col2Photo image1={image7} image2={image8} />
+      <img src={image26} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
 
-      <div className="mt-5 md:mt-[50px]">
-        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
-          Финальным этапом стало создание визуального руководства, в котором все элементы стиля были систематизированы и объединены в единую структуру. Мы задали логику и правила их использования, чтобы обеспечить целостность и последовательность визуальной коммуникации бренда.
-        </p>
-      </div>
+      <Col2Photo image1={image27} image2={image28} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
-      {/* Section 13 */}
-      <video src={video5} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <Col2Photo image1={image29} image2={image30} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
       {/* Section 14 */}
       <NextPrevCase dataPrev={casesData[3]} dataNext={casesData[4]} link={"/case9"}/>
@@ -114,6 +146,4 @@ const Case17Page = () => {
   );
 };
 
-export default Case17Page;
-
-
+export default Case21Page;
