@@ -8,7 +8,7 @@ gsap.registerPlugin(Power2);
  *
  * @constant {number} SCALE
  */
-const SCALE = 1;
+const SCALE = 0.5;
 
 /**
  * Константы длительностей анимаций (в секундах).

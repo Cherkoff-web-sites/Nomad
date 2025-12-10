@@ -38,7 +38,7 @@ const Case4Page = () => {
   const caseData = {
     projectTitle: 'SBER BAZAR',
     clientTitle: '«СБЕР»',
-    cards: ['events', 'брендинг', 'smm/pr'],
+    cards: ['events', 'брендинг'],
     description:
       'Наши друзья из агентства Gutora пригласили нас присоединиться к проекту по запросу Ростовского отделения «СберБанка»: создать особенное событие для застройщиков с фокусом на лидогенерацию.',
     result: [

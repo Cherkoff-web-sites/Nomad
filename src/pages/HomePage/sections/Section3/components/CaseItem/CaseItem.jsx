@@ -52,7 +52,8 @@ export default function CaseItem({
     if (!containerRef.current) return;
 
     const containerWidth = containerRef.current.clientWidth;
-    const ellipsisWidth = ellipsisRef.current ? ellipsisRef.current.offsetWidth : 0;
+    // Используем реальную ширину ellipsis, если доступна, иначе примерную (примерно 30px для иконки + отступы)
+    const ellipsisWidth = ellipsisRef.current ? ellipsisRef.current.offsetWidth : 30;
     const GAP = 2; // Интервал между карточками (подгонка под дизайн)
     let totalWidth = 0;
 
@@ -63,8 +64,8 @@ export default function CaseItem({
         totalWidth += (i > 0 ? GAP : 0) + cardEl.offsetWidth;
       }
     }
-    // Если все карточки умещаются в контейнере, отображаем их все
-    if (totalWidth <= containerWidth) {
+    // Если все карточки умещаются в контейнере с учётом ellipsis, отображаем их все
+    if (totalWidth + ellipsisWidth <= containerWidth) {
       setVisibleCount(cards.length);
       return;
     }
@@ -83,7 +84,8 @@ export default function CaseItem({
         break;
       }
     }
-    setVisibleCount(count);
+    // Минимум должна быть показана хотя бы одна карточка с ellipsis
+    setVisibleCount(Math.max(1, count));
   }, [cards, isFocus2, isDop, isMobile]);
 
   // Обновляем количество видимых карточек с задержкой (учитывая анимацию)
@@ -118,7 +120,8 @@ export default function CaseItem({
       ));
     }
     // Иначе показываем часть карточек и кнопку-ellipsis вместо последней карточки
-    const visibleItems = cards.slice(0, visibleCount - 1).map((item, index) => (
+    // visibleCount всегда >= 1 благодаря Math.max(1, count) в updateVisibleCount
+    const visibleItems = cards.slice(0, Math.max(0, visibleCount - 1)).map((item, index) => (
       <CardItem
         key={index}
         ref={(el) => (cardRefs.current[index] = el)}

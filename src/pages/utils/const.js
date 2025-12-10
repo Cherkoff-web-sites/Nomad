@@ -3,7 +3,7 @@ export const casesData = [
     background: 'bg-bg-1',
     title: 'Лига уличного футбола',
     link: '/case15',
-    cards: ['брендинг', 'UX/UI-дизайн', 'events', 'партнерство', 'SMM/PR', 'production'],
+    cards: ['брендинг', 'UX/UI-дизайн', 'events', 'партнерство'],
   },
   {
     background: 'bg-bg-2-1',
@@ -81,12 +81,12 @@ export const casesData = [
     background: 'bg-bg-14-1',
     title: 'SBER BAZAR',
     link: '/case4',
-    cards: ['events', 'брендинг', 'SMM/PR'],
+    cards: ['events', 'брендинг'],
   },
   {
     background: 'bg-bg-15-1',
     title: 'create your reality?',
     link: '/case12',
-    cards: ['SMM/PR', 'production'],
+    cards: [],
   },
 ];

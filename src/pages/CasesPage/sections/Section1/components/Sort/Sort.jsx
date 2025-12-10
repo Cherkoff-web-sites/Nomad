@@ -11,8 +11,6 @@ const Sort = ({ sortCase, setSortCase }) => {
     { name: 'Events', count: 7 },
     { name: 'Стратегия и позиционирование', count: 1 },
     { name: 'Мерч', count: 2 },
-    { name: 'Production', count: 2 },
-    { name: 'SMM/PR', count: 3 },
     { name: 'Партнерство', count: 2 },
     { name: 'Архитектура Nomad.Arch', count: 2 },
   ];
