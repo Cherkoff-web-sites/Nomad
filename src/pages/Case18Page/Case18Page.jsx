@@ -139,7 +139,7 @@ const Case18Page = () => {
 
 
       {/* Section 14 */}
-      <NextPrevCase dataPrev={casesData[3]} dataNext={casesData[4]} link={"/case9"}/>
+      <NextPrevCase dataPrev={casesData[5]} dataNext={casesData[21]} link={"/case22"}/>
 
       <Footer />
     </main>

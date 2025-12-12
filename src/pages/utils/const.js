@@ -89,4 +89,46 @@ export const casesData = [
     link: '/case12',
     cards: [],
   },
+  {
+    background: 'bg-bg-16-1',
+    title: 'Хвоя by Pine River',
+    link: '/case16',
+    cards: ['брендинг'],
+  },
+  {
+    background: 'bg-bg-17-1',
+    title: '«Тим Фест»',
+    link: '/case17',
+    cards: ['брендинг', 'партнерство', 'стратегия', 'позиционирование', '3d'],
+  },
+  {
+    background: 'bg-bg-18',
+    title: 'САМОЛет SELECT х Lunda Padel',
+    link: '/case18',
+    cards: ['брендинг', '3d', 'партнерство', 'events'],
+  },
+  {
+    background: 'bg-bg-19',
+    title: 'Фонда мельниченко "движфест "',
+    link: '/case19',
+    cards: ['events'],
+  },
+  {
+    background: 'bg-bg-20',
+    title: 'гольф-клуб «Пестово»',
+    link: '/case20',
+    cards: ['стратегия', 'брендинг', 'партнерство', 'events'],
+  },
+  {
+    background: 'bg-bg-21',
+    title: 'МЕРЧ  lunda  Padel',
+    link: '/case21',
+    cards: ['мерч'],
+  },
+  {
+    background: 'bg-bg-22',
+    title: 'BetBoom Медиа бильярд',
+    link: '/case22',
+    cards: ['events', 'Digital'],
+  },
 ];

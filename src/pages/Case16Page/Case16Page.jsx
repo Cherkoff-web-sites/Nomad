@@ -104,7 +104,7 @@ const Case16Page = () => {
       <video src={video5} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
 
       {/* Section 14 */}
-      <NextPrevCase dataPrev={casesData[3]} dataNext={casesData[4]} link={"/case9"}/>
+      <NextPrevCase dataPrev={casesData[21]} dataNext={casesData[18]} link={"/case19"}/>
 
       <Footer />
     </main>

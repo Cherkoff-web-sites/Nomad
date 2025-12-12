@@ -201,7 +201,7 @@ const Case19Page = () => {
       <img src={image55} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
       
       {/* Section 14 */}
-      <NextPrevCase dataPrev={casesData[3]} dataNext={casesData[4]} link={"/case9"}/>
+      <NextPrevCase dataPrev={casesData[15]} dataNext={casesData[20]} link={"/case21"}/>
 
       <Footer />
     </main>

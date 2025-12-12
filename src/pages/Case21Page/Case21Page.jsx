@@ -139,7 +139,7 @@ const Case21Page = () => {
       <Col2Photo image1={image29} image2={image30} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
       {/* Section 14 */}
-      <NextPrevCase dataPrev={casesData[3]} dataNext={casesData[4]} link={"/case9"}/>
+      <NextPrevCase dataPrev={casesData[18]} dataNext={casesData[19]} link={"/case20"}/>
 
       <Footer />
     </main>
