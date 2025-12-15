@@ -108,7 +108,7 @@ const Case15Page = () => {
         <Col2Photo image1={image1} image2={image2} />
 
         {/* Section 5 video */}
-        <video src={video2} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+        <video src={video2} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
         {/* Section 5 */}
         <Col2Photo image1={image3} image2={image4} />
@@ -145,7 +145,7 @@ const Case15Page = () => {
         <ImageCustom image={image13} />
 
         {/* Section 15 video */}
-        <video src={video4} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+        <video src={video4} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
         {/* Section 16 */}
         <HalfText 
@@ -159,7 +159,7 @@ const Case15Page = () => {
         <Col2Photo image1={image16} image2={image17} />
 
         {/* Section 19 video */}
-        <video src={video5} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+        <video src={video5} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
         {/* Section 20 */}
         <Col2Photo image1={image18} image2={image19} />
@@ -196,7 +196,7 @@ const Case15Page = () => {
         />
 
         {/* Section 31 2 videos*/}
-        <div className={`flex justify-between mt-5 md:mt-[50px]`}>
+        <div className={`flex justify-between mt-5 md:mt-[20px]`}>
           <video
             src={video6}
             autoPlay
