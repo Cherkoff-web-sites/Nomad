@@ -64,19 +64,19 @@ const Case21Page = () => {
       {/* Section 2 */}
       <Col2Photo image1={image1} image2={image2} widthImage1="w-[42%]" widthImage2="w-[56%]"/>
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <Type3 type1Data={type1Data} />
       </div>
 
       <Col2Photo image1={image5} image2={image6} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
-      <img src={image7} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image7} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image8} image2={image9} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
       <Col2Photo image1={image10} image2={image11} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Решение: База, которую хочется носить
         </p>
@@ -103,7 +103,7 @@ const Case21Page = () => {
 
       <Col2Photo image1={image18} image2={image19} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Мы взяли на себя все этапы — от творческой идеи до готового продукта:
 
@@ -126,13 +126,13 @@ const Case21Page = () => {
 
       <Col2Photo image1={image24} image2={image25} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Мы запустили две целевые линейки мерча, которые укрепляют корпоративный дух среди сотрудников и формируют лояльное комьюнити среди клиентов. Коллекция «Padel starts here» стала не просто одеждой, а символом принадлежности к новому поколению спортивных визионеров.
         </p>
       </div>
 
-      <img src={image26} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image26} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image27} image2={image28} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 

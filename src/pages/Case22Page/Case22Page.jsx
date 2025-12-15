@@ -70,7 +70,7 @@ const Case22Page = () => {
       {/* Section 2 */}
       <video src={video1} autoPlay loop muted playsInline preload="metadata" className="mt-5 md:mt-[50px] w-full h-auto"></video>
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Мы отошли от привычного образа спорт-бара и стандартной Twitch-трансляции. Создали целый сценарий и сняли шоу как фильм — с декорациями, светом, костюмами и продуманным сетапом.
         </p>
@@ -80,16 +80,16 @@ const Case22Page = () => {
 
       <img src={image3} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Концепция опиралась на стиль «олдскульного цирка»: театрально, харизматично, с лёгким гротеском. Площадкой стал театральный зал, где бильярдный стол был главным героем спектакля.
         </p>
       </div>
 
-      <video src={video2} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <video src={video2} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Для трансляции привлекли дружественных стримеров, трансляция велась на Twitch-е Саши Парадеевича. Фокус был не на мастерстве игры, а на развлекательном контенте в кадре.
         </p>
@@ -97,7 +97,7 @@ const Case22Page = () => {
 
       <img src={image4} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Понимая, что классический бильярд может показаться скучным, мы придумали собственные правила и задания. Они делали розыгрыши непредсказуемыми, добавляли юмор и ставили участников в интересные, иногда забавные ситуации.
         </p>
@@ -105,11 +105,11 @@ const Case22Page = () => {
 
       <Col2Photo image1={image5} image2={image6} />
 
-      <video src={video3} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <video src={video3} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
       <VideoParallel video1={video4} video2={video5} />
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Мы превратили бильярд в полноценное шоу с высоким удержанием. Игра на контрастах, ставка на уникальную визуальную эстетику, необычные правила сделали контент увлекательным и заметным в Twitch.
         </p>
@@ -117,15 +117,15 @@ const Case22Page = () => {
 
       <Col2Photo image1={image7} image2={image8} />
 
-      <video src={video6} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <video src={video6} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
-      <video src={video7} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <video src={video7} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
       <VideoParallel video1={video8} video2={video9} />
 
-      <video src={video10} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <video src={video10} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
-      <video src={video11} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <video src={video11} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
 
       {/* Section 14 */}

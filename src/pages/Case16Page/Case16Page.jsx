@@ -49,26 +49,26 @@ const Case16Page = () => {
       <img src={image1} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
 
       {/* Section 3 */}
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <Type3 type1Data={type1Data} />
       </div>
 
       {/* Section 5 */}
-      <video src={video1} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <video src={video1} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
       {/* Section 6 */}
-      <video src={video2} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <video src={video2} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
       {/* Section 7 - Палитра цветов */}
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Фирменная палитра это продолжение диалога между лесной эстетикой и гастрономической темой. Каждый оттенок выбран осознанно и имеет свою историю. Палитра сочетает насыщенность леса и тёплые бистро-акценты. Тёмные оттенки делают светлые ещё уютнее. Нет кислотных цветов — только «съедобные» тона.
         </p>
-        <img src={image4} alt="Палитра цветов" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+        <img src={image4} alt="Палитра цветов" className="mt-5 md:mt-[70px] w-full h-auto" loading='lazy'/>
       </div>
 
       {/* Section 8 */}
-      <img src={image5} alt="photo11" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image5} alt="photo11" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <div className="mt-5 md:mt-[50px]">
         <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
@@ -77,15 +77,15 @@ const Case16Page = () => {
       </div>
 
       {/* Section 9 */}
-      <video src={video3} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <video src={video3} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
       {/* Section 10 */}
-      <img src={image6} alt="photo14" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image6} alt="photo14" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       {/* Section 11 */}
-      <video src={video4} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <video src={video4} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Форма сотрудников становится продолжением всей визуальной концепции фирменного стиля, вмещая в себе харизматичные вординги и ключевые визуальные приемы бренда.
         </p>
@@ -94,14 +94,14 @@ const Case16Page = () => {
       {/* Section 12 */}
       <Col2Photo image1={image7} image2={image8} />
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Финальным этапом стало создание визуального руководства, в котором все элементы стиля были систематизированы и объединены в единую структуру. Мы задали логику и правила их использования, чтобы обеспечить целостность и последовательность визуальной коммуникации бренда.
         </p>
       </div>
 
       {/* Section 13 */}
-      <video src={video5} autoPlay loop muted playsInline className="mt-5 md:mt-[50px] w-full h-auto"></video>
+      <video src={video5} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
       {/* Section 14 */}
       <NextPrevCase dataPrev={casesData[21]} dataNext={casesData[18]} link={"/case19"}/>

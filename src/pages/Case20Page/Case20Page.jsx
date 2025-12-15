@@ -46,7 +46,7 @@ const Case20Page = () => {
       <ImageVideo image={image1} video={video1} widthImage="w-[42%]" widthVideo="w-[56%]"/>
 
       {/* Section 3 */}
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[58%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Компания УК «Альфа-Капитал» создала собственную забрендированную лунку, где члены клуба и их гости могут начинать свою игру и делать фотографии на фоне большого логотипа компании, расположенного на живописных холмах гольф-клуба.
         </p>
@@ -54,9 +54,9 @@ const Case20Page = () => {
 
       <Col2Photo image1={image2} image2={image3} />
 
-      <img src={image4} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image4} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[50%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Кроме того, для гостей и членов клуба была открыта лаунж-зона УК «Альфа-Капитал» рядом с клубным домом, а начинающие гольфисты могли пройти обучение в гольф-академии и получить брендированные красные гольф-мячи, выделяющиеся на зеленом газоне.
         </p>
@@ -64,7 +64,7 @@ const Case20Page = () => {
 
       <Col2Photo image1={image5} image2={image6} />
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[50%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           В честь запуска и анонса партнерства прошло масштабное клиентское мероприятие для клиентов УК «Альфа-Капитал» и членов гольф-клуба. Гости, в том числе и дети, обучались игре в гольф, совершали экскурсии по территории клуба на гольф-карах, знакомились с условиями и привилегиями партнерства, наслаждались семейным отдыхом и вкусной едой.
         </p>
@@ -74,13 +74,13 @@ const Case20Page = () => {
 
       <Col2Photo image1={image9} image2={image10} />
       
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[50%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Фотозона — украшенный цветами гольф-кар, расположенный на газоне у озера, стала точкой притяжения дня, как и модный лимонадник, полностью собранный из клубники и ставший центральным объектом в зоне фуршета.
         </p>
       </div>
 
-      <img src={image11} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image11} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image12} image2={image13} />
 

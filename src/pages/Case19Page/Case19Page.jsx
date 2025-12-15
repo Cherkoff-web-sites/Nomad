@@ -96,17 +96,17 @@ const Case19Page = () => {
           <br />
           — Организовали сбор обратной связи через Telegram-бот, превратив его в увлекательный квест внутри интерактивного лабиринта
         </p>
-        <img src={image2} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+        <img src={image2} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
       </div>
 
-      <img src={image3} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image3} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image4} image2={image5} />
 
       <Col2Photo image1={image6} image2={image7} />
 
       {/* Section */}
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Фестиваль проходил по принципам современных городских событий: спортивные турниры, фуд-корт, зоны отдыха и разнообразные активности.
         </p>
@@ -114,19 +114,19 @@ const Case19Page = () => {
 
       <ImageVideo image={image8} video={video2} widthImage="w-[49%]" widthVideo="w-[49%]"/>
 
-      <img src={image9} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image9} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image10} image2={image11} />
 
-      <img src={image12} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image12} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image13} image2={image14} />
 
       <Col2Photo image1={image15} image2={image16} />
 
-      <img src={image17} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image17} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Участники зарабатывали баллы во всех зонах фестиваля и могли обменять их на подарки от бренда. Отдельно выделяется игровая механика «Лабиринт», которая стала инструментом для сбора обратной связи:
         </p>
@@ -142,63 +142,63 @@ const Case19Page = () => {
         </p>
       </div>
 
-      <img src={image18} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image18} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image19} image2={image20} />
 
       <ImageVideo image={image21} video={video3} widthImage="w-[49%]" widthVideo="w-[49%]"/>
 
-      <img src={image22} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image22} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[20px]">
         <p className="w-auto sm:w-[52%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Фестиваль стал масштабным событием, объединяющим спорт, отдых и корпоративные смыслы. Мероприятие укрепило корпоративный дух, создало пространство для общения сотрудников разных компаний и позволило собрать ценную обратную связь в лёгком, нативном формате.
         </p>
       </div>
 
-      <img src={image23} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image23} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image24} image2={image25} />
 
-      <img src={image26} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image26} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
       
       <Col2Photo image1={image27} image2={image28} />
       
-      <img src={image29} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image29} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image30} image2={image31} />
 
-      <img src={image32} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image32} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
       
       <Col2Photo image1={image33} image2={image34} />
       
-      <img src={image35} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image35} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image36} image2={image37} />
 
-      <img src={image38} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image38} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
       
       <Col2Photo image1={image39} image2={image40} />
       
-      <img src={image41} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image41} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image42} image2={image43} />
 
       <Col2Photo image1={image44} image2={image45} />
       
-      <img src={image46} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image46} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image47} image2={image48} />
       
       <Col2Photo image1={image49} image2={image50} />
       
-      <img src={image51} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image51} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
-      <img src={image52} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image52} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image53} image2={image54} />
       
-      <img src={image55} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
+      <img src={image55} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
       
       {/* Section 14 */}
       <NextPrevCase dataPrev={casesData[15]} dataNext={casesData[20]} link={"/case21"}/>
