@@ -22,10 +22,16 @@ const ResultProject = ({ data = [] }) => {
             ))}
           </div>
           :
-          <div className='w-[70%] md:w-[90%]'>
+          <div className='w-[70%] md:w-[85%]'>
             <Swiper
-              slidesPerView={window.innerWidth > 576 ? 5 : 3}
+              slidesPerView={3}
               spaceBetween={30}
+              breakpoints={{
+                576: {
+                  slidesPerView: 5,
+                  spaceBetween: 21, // Уменьшено на 30% для ПК (было 30)
+                },
+              }}
               loop={true} //important for autoplay
               speed={2000} //important for autoplay
               autoplay={{ //important for autoplay
