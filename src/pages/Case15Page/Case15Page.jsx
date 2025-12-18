@@ -111,7 +111,12 @@ const Case15Page = () => {
         <video src={video2} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
         {/* Section 5 */}
-        <Col2Photo image1={image3} image2={image4} />
+        <Col2Photo
+          image1={image3}
+          image2={image4}
+          styleImage1={{ maxWidth: '570px', maxHeight: '450px' }}
+          styleImage2={{ maxWidth: '598px', maxHeight: '450px' }}
+        />
 
         {/* Section 6 */}
         <HalfText 
@@ -119,7 +124,12 @@ const Case15Page = () => {
         />
 
         {/* Section 7 */}
-        <Col2Photo image1={image5} image2={image6} />
+        <Col2Photo
+          image1={image5}
+          image2={image6}
+          styleImage1={{ maxWidth: '570px', maxHeight: '450px' }}
+          styleImage2={{ maxWidth: '598px', maxHeight: '450px' }}
+        />
 
         {/* Section 8 */}
         <ImageVideo image={image7} video={video3} heightCustom='xl:h-[592px]'/>
