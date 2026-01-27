@@ -149,7 +149,7 @@ export default function CaseItem({
       className={`
         ${background} bg-cover
         ${check ? 'bg-center md:bg-left-bottom' : 'bg-left-bottom'}
-        ${background === 'bg-bg-4' ? '!bg-center' : ''} 
+        ${background === 'bg-bg-4' || background === 'bg-bg-16' || background === 'bg-bg-17' || background === 'bg-bg-6' ? '!bg-center' : ''} 
         w-full h-[352px] sm:h-[410px] xl:h-[460px] 
         rounded-[10px] p-5 relative cursor-pointer block z-[9]
       `}

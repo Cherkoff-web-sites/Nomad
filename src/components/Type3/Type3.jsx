@@ -7,9 +7,9 @@ const Type3 = ({ type1Data }) => {
     <section className="text-secondary">
       <div className="hidden md:flex justify-between items-start">
         <div className="w-[50%] self-stretch relative"> {/* pt-[1.875rem] */}
-          <p className="text-[10px] sm:text-[1.4375rem] leading-[13px] sm:leading-[26.45px] font-medium whitespace-pre-line tracking-tight">{type1Data.title1}</p>
+          <p className="text-[10px] sm:text-[1.4375rem] leading-[13px] sm:leading-[26.45px] font-medium whitespace-pre-line tracking-tight text-justify">{type1Data.title1}</p>
 
-          <img src={type1Data.image1} alt="photo1" className="absolute bottom-0 left-0 w-1/2 sm:w-auto" loading='lazy'/>
+          <img src={type1Data.image1} alt="photo1" className="absolute bottom-0 left-0 w-1/2" loading='lazy'/>
         </div>
 
         <div className="w-1/2 sm:w-auto">
@@ -25,7 +25,7 @@ const Type3 = ({ type1Data }) => {
       </div>
 
       {type1Data.widthTitle2 && (
-        <div className={`mt-5 sm:mt-[20px] ${type1Data.widthTitle2} sm:ml-auto text-[10px] sm:text-[1.4375rem] leading-[11px] sm:leading-[26.45px] font-medium`}>
+        <div className={`mt-5 sm:mt-[50px] ${type1Data.widthTitle2} sm:ml-auto text-[10px] sm:text-[1.4375rem] leading-[11px] sm:leading-[26.45px] font-medium text-justify`}>
           {type1Data.title2}
         </div>
       )}

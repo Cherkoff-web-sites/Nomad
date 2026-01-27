@@ -13,14 +13,14 @@ const Col2Photo = ({
       <img
         src={image1}
         alt="photo"
-        className={`${widthImage1} xl:w-auto h-auto object-cover`}
+        className={`${widthImage1} xl:w-[calc(50% - 10px)] h-auto object-cover`}
         style={styleImage1}
         loading="lazy"
       />
       <img
         src={image2}
         alt="photo"
-        className={`${widthImage2} xl:w-auto h-auto object-cover`}
+        className={`${widthImage2} xl:w-[calc(50% - 10px)] h-auto object-cover`}
         style={styleImage2}
         loading="lazy"
       />

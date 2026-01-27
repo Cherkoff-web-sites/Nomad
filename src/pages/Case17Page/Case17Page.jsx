@@ -68,11 +68,11 @@ const Case17Page = () => {
       <img src={image1} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
 
       {/* Section 3 */}
-      <div className="mt-5 md:mt-[20px]">
-        <p className="w-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+      <div className="mt-5 md:mt-[50px]">
+        <p className="w-auto md:w-[50%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Нам предстояло не просто разработать айдентику, а стать стратегическим партнёром проекта: сформировать концепцию, коммерческое предложение для партнёров и визуальный язык, способный объединить комьюнити и привлечь аудиторию.
         </p>
-        <img src={image2} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
+        {/* <img src={image2} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/> */}
       </div>
 
       {/* Section 4 */}
@@ -82,54 +82,54 @@ const Case17Page = () => {
       <video src={video2} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
       {/* Section */}
-      <div className="mt-5 md:mt-[20px]">
-        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
-        Мы взяли на себя полный цикл работ:
-        <br />
-        — разработку концепции и формата фестиваля;
-        <br />
-        — создание бренд-платформы и айдентики;
-        <br />
-        — подготовку презентации для партнёров;
-        <br />
-        — дизайн всех онлайн- и офлайн-носителей.
+      <div className="mt-5 md:mt-[50px]">
+        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+          Мы взяли на себя полный цикл работ:
+          <br />
+          — разработку концепции и формата фестиваля;
+          <br />
+          — создание бренд-платформы и айдентики;
+          <br />
+          — подготовку презентации для партнёров;
+          <br />
+          — дизайн всех онлайн- и офлайн-носителей.
         </p>
-        <img src={image5} alt="photo11" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
-        <img src={image6} alt="photo11" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
+        {/* <img src={image5} alt="photo11" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/> */}
+        <img src={image6} alt="photo11" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
       </div>
 
       {/* Section 6 */}
       <video src={video6} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
 
       {/* Section */}
-      <div className="mt-5 md:mt-[20px]">
-        <p className="w-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
-          «ТИМ Фест» был задуман как трехдневное событие для тех, кто видит в спорте стиль жизни, а в здоровье - главный тренд. Наша задача — передать эту энергию в визуальной форме.
+      <div className="mt-5 md:mt-[40px]">
+        <p className="w-auto sm:w-[50%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+          «ТИМ Фест» был задуман как трехдневное событие для тех, кто видит в спорте стиль жизни, а в здоровье&nbsp;- главный тренд. Наша задача — передать эту энергию в визуальной форме.
         </p>
-        <img src={image7} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
+        {/* <img src={image7} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/> */}
       </div>
 
       {/* Section 4 */}
-      <Col2Photo image1={image8} image2={image9} />
+      {/* <Col2Photo image1={image8} image2={image9} /> */}
 
       {/* Section */}
-      <img src={image10} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
+      <img src={image10} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
 
       {/* Section 9 */}
-      <video src={video1} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
+      {/* <video src={video1} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video> */}
 
       {/* Section 8 */}
-      <div className="mt-5 md:mt-[20px]">
-        <p className="w-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+      <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
+        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Эта идея легла в основу целостной визуальной системы, где волны стали главным графическим элементом, отражающим энергию, которая объединяет людей.
         </p>
-        <p className="w-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Концепция масштабировалась от оформления площадки и мерча до анимированного контента для соцсетей.
         </p>
       </div>
 
       {/* Section */}
-      <img src={image11} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
+      {/* <img src={image11} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/> */}
 
       {/* Section 4 */}
       <Col2Photo image1={image12} image2={image13} />
@@ -138,14 +138,14 @@ const Case17Page = () => {
       <Col2Photo image1={image14} image2={image15} />
 
       {/* Section */}
-      <div className="mt-5 md:mt-[20px]">
-        <p className="w-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+      <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
+        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Для привлечения партнёров мы подготовили презентацию с проработанной концепцией, айдентикой, зонированием площадки, активностями и возможностями для брендов.
         </p>
       </div>
 
       {/* Section */}
-      <img src={image16} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
+      {/* <img src={image16} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/> */}
 
       {/* Section 4 */}
       <Col2Photo image1={image17} image2={image18} />
@@ -161,7 +161,7 @@ const Case17Page = () => {
 
       {/* Section */}
       <div className="mt-5 md:mt-[20px]">
-        <p className="w-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           В результате проект прошёл путь от идеи до полноценного бренда с чёткой стратегией, визуальной идентичностью и коммерческим потенциалом.
         </p>
       </div>
@@ -176,7 +176,7 @@ const Case17Page = () => {
       <img src={image23} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       {/* Section */}
-      <video src={video5} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video>
+      {/* <video src={video5} autoPlay loop muted playsInline className="mt-5 md:mt-[20px] w-full h-auto"></video> */}
 
       {/* Section 14 */}
       <NextPrevCase dataPrev={casesData[19]} dataNext={casesData[3]} link={"/case10"}/>

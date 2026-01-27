@@ -109,7 +109,7 @@ const SortByCondition = ({ sortCase }) => {
       cards: ['брендинг', 'партнерство', 'стратегия', 'позиционирование'],
     },
     {
-      background: 'bg-bg-18',
+      background: 'bg-bg-16',
       title: 'САМОЛет SELECT х Lunda Padel',
       link: '/case18',
       cards: ['брендинг', '3d', 'партнерство', 'events'],
