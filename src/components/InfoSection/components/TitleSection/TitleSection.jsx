@@ -6,7 +6,7 @@ const TitleSection = ({ projectTitle, clientTitle, nowrap, titleWidth = 'w-[48%]
         <span>[клиент]</span>
       </div>
 
-      <div className={`flex justify-between ${titleAlign} text-secondary font-semibold text-[0.9375rem] sm:text-[1.25rem] md:text-[1.875rem] lg:text-[2.5rem] xl:text-[3.125rem] tracking-tighter mt-5 leading-[12.5px] sm:leading-[20.5px] md:leading-[60.5px] uppercase`}>
+      <div className={`flex justify-between ${titleAlign} text-secondary font-semibold text-[0.9375rem] sm:text-[1.25rem] md:text-[1.875rem] lg:text-[2.5rem] xl:text-[48px] tracking-tighter mt-5 leading-[12.5px] sm:leading-[20.5px] md:leading-[60.5px] uppercase`}>
         <span className="whitespace-nowrap">{projectTitle}</span>
         <p className={`${titleWidth} flex ${titleAlign} justify-between`}>
           <span>—</span> 
