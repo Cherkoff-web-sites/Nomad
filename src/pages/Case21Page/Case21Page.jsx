@@ -64,7 +64,7 @@ const Case21Page = () => {
       {/* Section 2 */}
       <Col2Photo image1={image1} image2={image2} widthImage1="w-[42%]" widthImage2="w-[56%]"/>
 
-      <div className="mt-5 md:mt-[20px]">
+      <div className="mt-5 md:mt-[20px] mb-5 md:mb-[50px]">
         <Type3 type1Data={type1Data} />
       </div>
 
@@ -76,23 +76,19 @@ const Case21Page = () => {
 
       <Col2Photo image1={image10} image2={image11} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
-      <div className="mt-5 md:mt-[20px]">
+      <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Решение: База, которую хочется носить
         </p>
         <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Мы создали коллекцию, основанную на принципах актуального гардероба:
         </p>
-        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
-          <br />
-          — Функциональность: Удобные модели для everyday wear и занятий спортом.
-          <br />
-          — Современный крой: Свободные лекала, соответствующие последним трендам.
-          <br />
-          — Узнаваемый дизайн: Минималистичные принты и цепляющий копирайт, отражающий дух комьюнити.
-          <br />
-          — Яркие акценты: Детали, подчеркивающие динамику и энергию бренда.
-        </p>
+        <ul className="w-auto sm:w-[48%] ml-auto list-disc list-outside text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] pl-4 md:pl-6 space-y-1 md:space-y-2">
+          <li>Функциональность: Удобные модели для everyday wear и занятий спортом.</li>
+          <li>Современный крой: Свободные лекала, соответствующие последним трендам.</li>
+          <li>Узнаваемый дизайн: Минималистичные принты и цепляющий копирайт, отражающий дух комьюнити.</li>
+          <li>Яркие акценты: Детали, подчеркивающие динамику и энергию бренда.</li>
+        </ul>
       </div>
 
       <Col2Photo image1={image12} image2={image13} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
@@ -103,21 +99,16 @@ const Case21Page = () => {
 
       <Col2Photo image1={image18} image2={image19} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
-      <div className="mt-5 md:mt-[20px]">
-        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+      <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
+        <p className="w-auto sm:w-[48%] mb-[30px] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Мы взяли на себя все этапы — от творческой идеи до готового продукта:
-
         </p>
-        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
-          <br />
-          1. Разработка дизайна: Полное проектирование внешнего вида всех изделий.
-          <br />
-          2. Конструирование: Разработка лекал для обеспечения идеальной посадки.
-          <br />
-          3. Контроль качества: Тщательный отбор тканей и полной брендированной фурнитуры (молнии, пуговицы, бирки).
-          <br />
-          4. Производство и пошив: Полное курирование работы фабрики и контроль каждого этапа пошива.
-        </p>
+        <ol className="w-auto sm:w-[48%] list-decimal list-outside text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] pl-4 md:pl-6 space-y-1 md:space-y-2">
+          <li>Разработка дизайна: Полное проектирование внешнего вида всех изделий.</li>
+          <li>Конструирование: Разработка лекал для обеспечения идеальной посадки.</li>
+          <li>Контроль качества: Тщательный отбор тканей и полной брендированной фурнитуры (молнии, пуговицы, бирки).</li>
+          <li>Производство и пошив: Полное курирование работы фабрики и контроль каждого этапа пошива.</li>
+        </ol>
       </div>
 
       <Col2Photo image1={image20} image2={image21} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
@@ -126,13 +117,13 @@ const Case21Page = () => {
 
       <Col2Photo image1={image24} image2={image25} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
-      <div className="mt-5 md:mt-[20px]">
-        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+      <div className="mt-5 md:mt-[50px]">
+        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Мы запустили две целевые линейки мерча, которые укрепляют корпоративный дух среди сотрудников и формируют лояльное комьюнити среди клиентов. Коллекция «Padel starts here» стала не просто одеждой, а символом принадлежности к новому поколению спортивных визионеров.
         </p>
       </div>
 
-      <img src={image26} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
+      <img src={image26} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
 
       <Col2Photo image1={image27} image2={image28} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
