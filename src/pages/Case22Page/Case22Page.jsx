@@ -81,7 +81,7 @@ const Case22Page = () => {
       <img src={image3} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
 
       <div className="mt-5 md:mt-[50px]">
-        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[calc(50%-10px)] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Концепция опиралась на стиль «олдскульного цирка»: театрально, харизматично, с лёгким гротеском. Площадкой стал театральный зал, где бильярдный стол был главным героем спектакля.
         </p>
       </div>
@@ -110,7 +110,7 @@ const Case22Page = () => {
       <VideoParallel video1={video4} video2={video5} />
 
       <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
-        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[calc(50%-10px)] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Мы превратили бильярд в полноценное шоу с высоким удержанием. Игра на контрастах, ставка на уникальную визуальную эстетику, необычные правила сделали контент увлекательным и заметным в Twitch.
         </p>
       </div>

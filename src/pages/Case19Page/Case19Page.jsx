@@ -107,7 +107,7 @@ const Case19Page = () => {
 
       {/* Section */}
       <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
-        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+        <p className="w-auto sm:w-[calc(50%-10px)] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Фестиваль проходил по принципам современных городских событий: спортивные турниры, фуд-корт, зоны отдыха и разнообразные активности.
         </p>
       </div>
@@ -126,7 +126,7 @@ const Case19Page = () => {
 
       <img src={image17} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
-      <div className="mt-5 md:mt-[20px]">
+      <div className="mt-5 md:mt-[50px]">
         <p className="w-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] mb-2 md:mb-3">
           Участники зарабатывали баллы во всех зонах фестиваля и могли обменять их на подарки от бренда. Отдельно выделяется игровая механика «Лабиринт», которая стала инструментом для сбора обратной связи:
         </p>

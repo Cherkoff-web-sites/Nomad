@@ -83,7 +83,7 @@ const Case17Page = () => {
 
       {/* Section */}
       <div className="mt-5 md:mt-[50px]">
-        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[calc(50%-10px)] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Мы взяли на себя полный цикл работ:
           <br />
           — разработку концепции и формата фестиваля;

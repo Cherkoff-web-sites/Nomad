@@ -77,13 +77,13 @@ const Case21Page = () => {
       <Col2Photo image1={image10} image2={image11} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
       <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
-        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+        <p className="w-auto sm:w-[calc(50%-10px)] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Решение: База, которую хочется носить
         </p>
-        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+        <p className="w-auto sm:w-[calc(50%-10px)] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Мы создали коллекцию, основанную на принципах актуального гардероба:
         </p>
-        <ul className="w-auto sm:w-[48%] ml-auto list-disc list-outside text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] pl-4 md:pl-6 space-y-1 md:space-y-2">
+        <ul className="w-auto sm:w-[calc(50%-10px)] ml-auto list-disc list-outside text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] pl-4 md:pl-6 space-y-1 md:space-y-2">
           <li>Функциональность: Удобные модели для everyday wear и занятий спортом.</li>
           <li>Современный крой: Свободные лекала, соответствующие последним трендам.</li>
           <li>Узнаваемый дизайн: Минималистичные принты и цепляющий копирайт, отражающий дух комьюнити.</li>
@@ -118,7 +118,7 @@ const Case21Page = () => {
       <Col2Photo image1={image24} image2={image25} widthImage1="w-[49%]" widthImage2="w-[49%]"/>
 
       <div className="mt-5 md:mt-[50px]">
-        <p className="w-auto sm:w-[48%] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[calc(50%-10px)] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Мы запустили две целевые линейки мерча, которые укрепляют корпоративный дух среди сотрудников и формируют лояльное комьюнити среди клиентов. Коллекция «Padel starts here» стала не просто одеждой, а символом принадлежности к новому поколению спортивных визионеров.
         </p>
       </div>

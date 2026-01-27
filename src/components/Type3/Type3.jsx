@@ -12,7 +12,7 @@ const Type3 = ({ type1Data }) => {
           <img src={type1Data.image1} alt="photo1" className="absolute bottom-0 left-0 w-1/2" loading='lazy'/>
         </div>
 
-        <div className="w-1/2 sm:w-auto">
+        <div className="w-1/2 sm:w-[calc(50%-10px)]">
           <img src={type1Data.image2} alt="photo2" className="w-auto sm:w-full h-[168px] sm:h-auto" loading='lazy'/>
         </div>
       </div>
