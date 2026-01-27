@@ -56,7 +56,7 @@ const Case18Page = () => {
 
       {/* Section 3 */}
       <div className="mt-5 md:mt-[50px]">
-        <p className="w-auto sm:w-[calc(50%-10px)] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+        <p className="w-auto sm:w-[calc(50%-10px)] text-[0.625rem] sm:text-sm md:text-xl lg:text-[23px] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           В основе концепции NOVA — идея «тихой роскоши». Архитектура комплекса вдохновлена природой и северными ландшафтами. Мы перенесли эту эстетику в динамичную атмосферу падел-клуба и создали айдентику, где физическая активность сливается с ощущением нахождения на природе.
         </p>
         <img src={image2} alt="Фото кейса" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
@@ -64,7 +64,7 @@ const Case18Page = () => {
 
       {/* Section */}
       <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
-        <p className="w-auto sm:w-[calc(50%-10px)] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+        <p className="w-auto sm:w-[calc(50%-10px)] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[23px] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
         В дизайне мы использовали ключевые мотивы бренда:
         <br />
         — минимализм и чёткую геометрию, и “выход за рамки“ (графический элемент бренда);
@@ -80,7 +80,7 @@ const Case18Page = () => {
 
       {/* Section */}
       <div className="mt-5 md:mt-[50px]">
-        <p className="w-auto sm:w-[calc(50%-10px)] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[calc(50%-10px)] text-[0.625rem] sm:text-sm md:text-xl lg:text-[23px] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           После создания айдентики мы оформили пространство клуба. В интерьере Lunda Padel появился органичный брендинг NOVA, а фотозона-пьедестал стала арт-объектом и центром притяжения на турнирах и мероприятиях.
         </p>
       </div>
@@ -100,7 +100,7 @@ const Case18Page = () => {
       <img src={image13} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <div className="mt-5 md:mt-[50px]">
-        <p className="w-auto sm:w-[calc(50%-10px)] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[calc(50%-10px)] text-[0.625rem] sm:text-sm md:text-xl lg:text-[23px] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Для запуска партнёрства мы организовали клиентский день, объединив спорт и недвижимость. Гости смогли поучаствовали в тренировках, любительском турнире и узнать о концепции комплекса в тёплой, неформальной атмосфере.
         </p>
       </div>
@@ -110,7 +110,7 @@ const Case18Page = () => {
       <Col2Photo image1={image15} image2={image16} />
 
       <div className="mt-5 md:mt-[50px]">
-        <p className="w-auto sm:w-[calc(50%-10px)] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+        <p className="w-auto sm:w-[calc(50%-10px)] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[23px] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Проект показал, как бренд может общаться с людьми через партнера и живой опыт: 
           <br />
           — NOVA получила внимание новой аудитории и усилила узнаваемость через лайфстайл-формат.

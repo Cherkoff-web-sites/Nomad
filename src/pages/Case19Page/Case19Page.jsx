@@ -86,10 +86,10 @@ const Case19Page = () => {
       {/* Section 3 */}
       <div className="mt-5 md:mt-[50px]">
         <div className="w-auto sm:w-[58%]">
-          <p className="text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] mb-2 md:mb-3">
+          <p className="text-[0.625rem] sm:text-sm md:text-xl lg:text-[23px] font-medium leading-[13px] md:leading-[30px] mb-2 md:mb-3">
             Что мы сделали:
           </p>
-          <ul className="list-disc list-outside text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] pl-4 md:pl-6 space-y-1 md:space-y-2">
+          <ul className="list-disc list-outside text-[0.625rem] sm:text-sm md:text-xl lg:text-[23px] font-medium leading-[13px] md:leading-[30px] pl-4 md:pl-6 space-y-1 md:space-y-2">
             <li>Разработали общую концепцию и формат фестиваля</li>
             <li>Разработали регламенты для спортивных турниров: футбол, волейбол, настольный теннис и шахматы.</li>
             <li>Придумали форматы и механику для фан-активностей</li>
@@ -107,7 +107,7 @@ const Case19Page = () => {
 
       {/* Section */}
       <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
-        <p className="w-auto sm:w-[calc(50%-10px)] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
+        <p className="w-auto sm:w-[calc(50%-10px)] ml-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[23px] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line">
           Фестиваль проходил по принципам современных городских событий: спортивные турниры, фуд-корт, зоны отдыха и разнообразные активности.
         </p>
       </div>
@@ -127,15 +127,15 @@ const Case19Page = () => {
       <img src={image17} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <div className="mt-5 md:mt-[50px]">
-        <p className="w-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] mb-2 md:mb-3">
+        <p className="w-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[23px] font-medium leading-[13px] md:leading-[30px] mb-2 md:mb-3">
           Участники зарабатывали баллы во всех зонах фестиваля и могли обменять их на подарки от бренда. Отдельно выделяется игровая механика «Лабиринт», которая стала инструментом для сбора обратной связи:
         </p>
-        <ul className="w-auto list-disc list-outside text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] pl-4 md:pl-6 space-y-1 md:space-y-2">
+        <ul className="w-auto list-disc list-outside text-[0.625rem] sm:text-sm md:text-xl lg:text-[23px] font-medium leading-[13px] md:leading-[30px] pl-4 md:pl-6 space-y-1 md:space-y-2">
           <li>Физический лабиринт — арт-объект внутри с информацией о компаниях.</li>
           <li>Квест в Telegram — участники изучали информацию и отвечали на вопросы в Telegram боте.</li>
           <li>Единая валюта фестиваля — за правильные ответы начислялись баллы, которые также можно было получить в других активностях.</li>
         </ul>
-        <p className="w-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] mt-2 md:mt-3">
+        <p className="w-auto text-[0.625rem] sm:text-sm md:text-xl lg:text-[23px] font-medium leading-[13px] md:leading-[30px] mt-2 md:mt-3">
           Призы — баллы обменивались на подарки, усиливая мотивацию участвовать.
         </p>
       </div>
@@ -149,7 +149,7 @@ const Case19Page = () => {
       <img src={image22} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
       <div className="mt-5 md:mt-[50px]">
-        <p className="w-auto sm:w-[52%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[52%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[23px] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Фестиваль стал масштабным событием, объединяющим спорт, отдых и корпоративные смыслы. Мероприятие укрепило корпоративный дух, создало пространство для общения сотрудников разных компаний и позволило собрать ценную обратную связь в лёгком, нативном формате.
         </p>
       </div>
