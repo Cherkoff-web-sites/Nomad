@@ -68,7 +68,7 @@ const Case17Page = () => {
       <img src={image1} alt="photo1" className="mt-5 md:mt-[3.125rem] w-full h-auto" loading='lazy'/>
 
       {/* Section 3 */}
-      <div className="mt-5 md:mt-[50px]">
+      <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
         <p className="w-auto md:w-[50%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Нам предстояло не просто разработать айдентику, а стать стратегическим партнёром проекта: сформировать концепцию, коммерческое предложение для партнёров и визуальный язык, способный объединить комьюнити и привлечь аудиторию.
         </p>
@@ -120,10 +120,10 @@ const Case17Page = () => {
 
       {/* Section 8 */}
       <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
-        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[calc(50%-10px)] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Эта идея легла в основу целостной визуальной системы, где волны стали главным графическим элементом, отражающим энергию, которая объединяет людей.
         </p>
-        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[calc(50%-10px)] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Концепция масштабировалась от оформления площадки и мерча до анимированного контента для соцсетей.
         </p>
       </div>
@@ -139,7 +139,7 @@ const Case17Page = () => {
 
       {/* Section */}
       <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
-        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[calc(50%-10px)] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Для привлечения партнёров мы подготовили презентацию с проработанной концепцией, айдентикой, зонированием площадки, активностями и возможностями для брендов.
         </p>
       </div>
@@ -161,7 +161,7 @@ const Case17Page = () => {
 
       {/* Section */}
       <div className="mt-5 md:mt-[20px]">
-        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[calc(50%-10px)] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           В результате проект прошёл путь от идеи до полноценного бренда с чёткой стратегией, визуальной идентичностью и коммерческим потенциалом.
         </p>
       </div>

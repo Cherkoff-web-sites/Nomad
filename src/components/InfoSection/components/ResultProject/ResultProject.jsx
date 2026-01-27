@@ -17,7 +17,7 @@ const ResultProject = ({ data = [] }) => {
             {data.map((item, index) => (
               <div className="flex flex-col gap-2 md:gap-5" key={index}>
                 <span className="text-[25px] md:text-[4.0625rem] font-medium leading-[20px] md:leading-[51.5px] whitespace-nowrap">{item.title}</span>
-                <span className="text-[10px] md:text-base font-medium whitespace-pre-line">{item.desc}</span>
+                <span className="text-[10px] md:text-base font-medium whitespace-pre-line tracking-[-0.04em]">{item.desc}</span>
               </div>
             ))}
           </div>
@@ -47,7 +47,7 @@ const ResultProject = ({ data = [] }) => {
                   <div className="flex justify-center">
                     <div className="flex flex-col gap-2 md:gap-5" >
                       <span className="text-[25px] md:text-[4.0625rem] font-medium leading-[20px] md:leading-[51.5px] whitespace-nowrap">{item.title}</span>
-                      <span className="text-[10px] md:text-base font-medium whitespace-normal md:whitespace-pre-line">{item.desc}</span>
+                      <span className="text-[10px] md:text-base font-medium whitespace-normal md:whitespace-pre-line tracking-[-0.04em]">{item.desc}</span>
                     </div>
                 </div>
                 </SwiperSlide>

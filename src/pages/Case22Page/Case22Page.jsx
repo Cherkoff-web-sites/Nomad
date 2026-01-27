@@ -71,7 +71,7 @@ const Case22Page = () => {
       <video src={video1} autoPlay loop muted playsInline preload="metadata" className="mt-5 md:mt-[50px] w-full h-auto"></video>
 
       <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
-        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[calc(50%-10px)] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Мы отошли от привычного образа спорт-бара и стандартной Twitch-трансляции. Создали целый сценарий и сняли шоу как фильм — с декорациями, светом, костюмами и продуманным сетапом.
         </p>
       </div>
@@ -90,7 +90,7 @@ const Case22Page = () => {
 
 
       <div className="mt-5 md:mt-[50px]">
-        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[calc(50%-10px)] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Для трансляции привлекли дружественных стримеров, трансляция велась на Twitch-е Саши Парадеевича. Фокус был не на мастерстве игры, а на развлекательном контенте в кадре.
         </p>
       </div>
@@ -98,7 +98,7 @@ const Case22Page = () => {
       <img src={image4} alt="photo1" className="mt-5 md:mt-[50px] w-full h-auto" loading='lazy'/>
 
       <div className="mt-5 md:mt-[50px] mb-5 md:mb-[50px]">
-        <p className="w-auto sm:w-[48%] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
+        <p className="w-auto sm:w-[calc(50%-10px)] text-[0.625rem] sm:text-sm md:text-xl lg:text-[1.4375rem] font-medium leading-[13px] md:leading-[30px] whitespace-pre-line text-justify">
           Понимая, что классический бильярд может показаться скучным, мы придумали собственные правила и задания. Они делали розыгрыши непредсказуемыми, добавляли юмор и ставили участников в интересные, иногда забавные ситуации.
         </p>
       </div>
