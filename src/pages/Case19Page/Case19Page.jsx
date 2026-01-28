@@ -112,7 +112,7 @@ const Case19Page = () => {
         </p>
       </div>
 
-      <ImageVideo image={image8} video={video2} widthImage="w-[49%]" widthVideo="w-[49%]"/>
+      <ImageVideo image={image8} video={video2} widthImage="w-[49%]" widthVideo="w-[49%]" reverse />
 
       <img src={image9} alt="Фото кейса" className="mt-5 md:mt-[20px] w-full h-auto" loading='lazy'/>
 
