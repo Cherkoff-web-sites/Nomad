@@ -135,7 +135,7 @@ const SortByCondition = ({ sortCase }) => {
     {
       background: 'bg-bg-22',
       title: 'BetBoom Медиа бильярд',
-      link: '/case22',
+      link: '',
       cards: ['events', 'Digital'],
     },
   ];

@@ -30,13 +30,15 @@ export default function CaseItem({
                                    link,
                                    cards = [],
                                    check=false,
-                                   nomadarch=false
+                                   nomadarch=false,
+                                   disabled=false
                                  }) {
   const containerRef = useRef(null);
   const ellipsisRef = useRef(null);
   const cardRefs = useRef([]);
   const [isDop, setIsDop] = useState(false);
   const [visibleCount, setVisibleCount] = useState(cards.length);
+  const isDisabled = disabled || !link;
 
   /**
    * Функция для обновления количества видимых карточек.
@@ -142,16 +144,21 @@ export default function CaseItem({
     return visibleItems;
   };
 
+  const WrapperComponent = isDisabled ? 'div' : Link;
+  const wrapperProps = isDisabled ? {} : { to: link };
+
   return (
-    <Link
-      to={link}
+    <WrapperComponent
+      {...wrapperProps}
       ref={containerRef}
+      aria-disabled={isDisabled}
       className={`
         ${background} bg-cover
         ${check ? 'bg-center md:bg-left-bottom' : 'bg-left-bottom'}
         ${background === 'bg-bg-4' || background === 'bg-bg-16' || background === 'bg-bg-17' || background === 'bg-bg-6' ? '!bg-center' : ''} 
         w-full h-[352px] sm:h-[410px] xl:h-[460px] 
-        rounded-[10px] p-5 relative cursor-pointer block z-[9]
+        rounded-[10px] p-5 relative block z-[9]
+        ${isDisabled ? 'cursor-default' : 'cursor-pointer'}
       `}
     >
       {/* Заголовок кейса и кнопка (поверх фона) */}
@@ -165,7 +172,7 @@ export default function CaseItem({
             <a rel="noopener noreferrer" href='http://nomad-arch.ru' target='_blank'>nomad arch</a>
           </a>
         }
-        <ButtonCase link={link} />
+        <ButtonCase link={link} disabled={isDisabled} />
       </div>
       {/* Область для отображения карточек */}
       <div className="absolute bottom-5">
@@ -190,7 +197,7 @@ export default function CaseItem({
           )}
         </div>
       </div>
-    </Link>
+    </WrapperComponent>
   );
 }
 
@@ -202,4 +209,5 @@ CaseItem.propTypes = {
   title: PropTypes.string,
   link: PropTypes.string,
   cards: PropTypes.array,
+  disabled: PropTypes.bool,
 };
